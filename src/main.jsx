@@ -9,6 +9,9 @@ import {
 
 import Home from './components/Home.jsx';
 import Root from './components/Root.jsx';
+import UpdateProfile from './components/UpdateProfile.jsx';
+import UserProfile from './components/UserProfile.jsx';
+import Login from './components/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,9 +20,21 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
-      }
-    ]
+        element: <Home></Home>,
+      },
+      {
+        path: "update", 
+        element: <UpdateProfile></UpdateProfile>,
+      },
+      {
+        path: "user",
+        element: <UserProfile></UserProfile>,
+      },
+      {
+        path: "login",
+        element: <Login></Login>,
+      },
+    ],
     
   },
 ]);
