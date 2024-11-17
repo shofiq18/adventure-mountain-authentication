@@ -1,0 +1,270 @@
+[
+    {
+      "id": 1,
+      "title": "Everest Base Camp Trek",
+      "image": "https://example.com/images/everest_base_camp.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "An iconic trek to the base camp of the world's highest peak, Mount Everest.",
+      "adventureCost": 1200,
+      "bookingAvailability": "Available",
+      "location": "Sagarmatha National Park, Nepal",
+      "duration": "14 Days",
+      "adventureLevel": "Challenging",
+      "includedItems": [
+        "Experienced Guide",
+        "Porter Service",
+        "Lodging",
+        "Meals",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "No single-use plastics",
+        "Leave No Trace policy",
+        "Support for local communities"
+      ],
+      "maxGroupSize": 15,
+      "specialInstructions": [
+        "Acclimatize properly to prevent altitude sickness",
+        "Carry a down jacket and warm layers",
+        "Bring water purification tablets"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Annapurna Circuit Trek",
+      "image": "https://example.com/images/annapurna_circuit.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "Explore the diverse landscapes of the Annapurna region.",
+      "adventureCost": 900,
+      "bookingAvailability": "Available",
+      "location": "Annapurna Conservation Area, Nepal",
+      "duration": "12 Days",
+      "adventureLevel": "Moderate",
+      "includedItems": [
+        "Guide and Porter",
+        "Lodging",
+        "Meals",
+        "Transportation",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "Community-based lodging",
+        "Waste management system",
+        "Eco-conscious trekking practices"
+      ],
+      "maxGroupSize": 12,
+      "specialInstructions": [
+        "Pack light but warm clothing",
+        "Ensure proper hydration",
+        "Respect local customs and traditions"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Langtang Valley Trek",
+      "image": "https://example.com/images/langtang_valley.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "A serene trek through the beautiful Langtang Valley.",
+      "adventureCost": 700,
+      "bookingAvailability": "Limited Availability",
+      "location": "Langtang National Park, Nepal",
+      "duration": "8 Days",
+      "adventureLevel": "Intermediate",
+      "includedItems": [
+        "Guide and Porter",
+        "Accommodation",
+        "Meals",
+        "Permits",
+        "Emergency Kit"
+      ],
+      "ecoFriendlyFeatures": [
+        "Promotion of local homestays",
+        "Support for reforestation projects",
+        "Low-impact trekking practices"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Carry enough cash for local purchases",
+        "Bring sunscreen and sunglasses",
+        "Avoid overpacking"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Manaslu Circuit Trek",
+      "image": "https://example.com/images/manaslu_circuit.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "A remote and culturally rich trek around Mount Manaslu.",
+      "adventureCost": 1100,
+      "bookingAvailability": "Available",
+      "location": "Gorkha, Nepal",
+      "duration": "15 Days",
+      "adventureLevel": "Challenging",
+      "includedItems": [
+        "Guide",
+        "Permits",
+        "Accommodation",
+        "Meals",
+        "Emergency Assistance"
+      ],
+      "ecoFriendlyFeatures": [
+        "Eco-lodges",
+        "Support for local communities",
+        "Plastic-free zones"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Carry trekking poles",
+        "Stay hydrated",
+        "Follow high-altitude safety tips"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gokyo Lakes and Renjo La Pass Trek",
+      "image": "https://example.com/images/gokyo_lakes.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "Discover pristine glacial lakes and panoramic views of the Himalayas.",
+      "adventureCost": 1300,
+      "bookingAvailability": "Available",
+      "location": "Sagarmatha National Park, Nepal",
+      "duration": "13 Days",
+      "adventureLevel": "Challenging",
+      "includedItems": [
+        "Guide",
+        "Porter",
+        "Lodging",
+        "Meals",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "Eco-conscious accommodations",
+        "Minimal waste trekking",
+        "Solar-powered camps"
+      ],
+      "maxGroupSize": 12,
+      "specialInstructions": [
+        "Prepare for cold nights",
+        "Bring good trekking shoes",
+        "Ensure proper acclimatization"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Mardi Himal Trek",
+      "image": "https://example.com/images/mardi_himal.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "A short and scenic trek to the base of Mardi Himal.",
+      "adventureCost": 500,
+      "bookingAvailability": "Available",
+      "location": "Annapurna Region, Nepal",
+      "duration": "5 Days",
+      "adventureLevel": "Moderate",
+      "includedItems": [
+        "Guide",
+        "Meals",
+        "Accommodation",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "Support for local businesses",
+        "Reusable trekking materials",
+        "Eco-friendly trekking practices"
+      ],
+      "maxGroupSize": 8,
+      "specialInstructions": [
+        "Carry snacks",
+        "Pack warm layers",
+        "Use a daypack for essentials"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Kanchenjunga Base Camp Trek",
+      "image": "https://example.com/images/kanchenjunga.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "A remote trek to the base of the world’s third-highest mountain.",
+      "adventureCost": 1500,
+      "bookingAvailability": "Limited Availability",
+      "location": "Kanchenjunga Conservation Area, Nepal",
+      "duration": "21 Days",
+      "adventureLevel": "Expert",
+      "includedItems": [
+        "Guide",
+        "Meals",
+        "Camping Gear",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "Support for conservation projects",
+        "No-plastic trekking",
+        "Renewable energy sources"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Prepare for remote conditions",
+        "Carry extra power banks",
+        "Pack weather-resistant clothing"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Upper Mustang Trek",
+      "image": "https://example.com/images/upper_mustang.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "A cultural trek through the ancient kingdom of Upper Mustang.",
+      "adventureCost": 1600,
+      "bookingAvailability": "Available",
+      "location": "Mustang, Nepal",
+      "duration": "12 Days",
+      "adventureLevel": "Moderate",
+      "includedItems": [
+        "Guide",
+        "Meals",
+        "Accommodation",
+        "Permits",
+        "Cultural Tour"
+      ],
+      "ecoFriendlyFeatures": [
+        "Cultural preservation",
+        "Eco-tourism practices",
+        "Support for local businesses"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Respect local traditions",
+        "Carry sunscreen",
+        "Bring a sleeping bag liner"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Makalu Base Camp Trek",
+      "image": "https://example.com/images/makalu.jpg",
+      "categoryName": "Mountain Adventure",
+      "shortDescription": "Explore the pristine beauty of Makalu-Barun National Park.",
+      "adventureCost": 1400,
+      "bookingAvailability": "Available",
+      "location": "Makalu Region, Nepal",
+      "duration": "16 Days",
+      "adventureLevel": "Challenging",
+      "includedItems": [
+        "Guide",
+        "Meals",
+        "Accommodation",
+        "Permits"
+      ],
+      "ecoFriendlyFeatures": [
+        "Conservation-focused trekking",
+        "Plastic-free policy",
+        "Community engagement"
+      ],
+      "maxGroupSize": 10,
+      "specialInstructions": [
+        "Bring a rain jacket",
+        "Prepare for rough terrain",
+        "Carry altitude sickness medication"
+      ]
+    }
+  ]
+  
