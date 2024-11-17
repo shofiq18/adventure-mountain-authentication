@@ -9,7 +9,8 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="navbar max-w-7xl mx-auto my-8 bg-base-100">
+        <div className="navbar max-w-7xl mx-auto 
+          bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,7 +33,9 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl">Adventure Mountain</a>
+                
+                <img className="w-72
+                 h-24 object-cover rounded-full" src="/src/assets/nav-logo.jpg" alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal gap-3 px-1">

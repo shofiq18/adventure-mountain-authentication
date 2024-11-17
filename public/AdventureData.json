@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Everest Base Camp Trek",
-      "image": "https://example.com/images/everest_base_camp.jpg",
+      "image": "https://i.ibb.co.com/dKds2gw/woman-trekking-nepal-h.webp",
       "categoryName": "Mountain Adventure",
       "shortDescription": "An iconic trek to the base camp of the world's highest peak, Mount Everest.",
       "adventureCost": 1200,
@@ -32,7 +32,7 @@
     {
       "id": 2,
       "title": "Annapurna Circuit Trek",
-      "image": "https://example.com/images/annapurna_circuit.jpg",
+      "image": "https://i.ibb.co.com/q7Z1vF2/thorong-la-pass-annapurna-circuit-trek-jpg.webp",
       "categoryName": "Mountain Adventure",
       "shortDescription": "Explore the diverse landscapes of the Annapurna region.",
       "adventureCost": 900,
@@ -62,7 +62,7 @@
     {
       "id": 3,
       "title": "Langtang Valley Trek",
-      "image": "https://example.com/images/langtang_valley.jpg",
+      "image": "https://i.ibb.co.com/ZWT97RD/Poonhill-Trek.jpg",
       "categoryName": "Mountain Adventure",
       "shortDescription": "A serene trek through the beautiful Langtang Valley.",
       "adventureCost": 700,
@@ -92,7 +92,7 @@
     {
       "id": 4,
       "title": "Manaslu Circuit Trek",
-      "image": "https://example.com/images/manaslu_circuit.jpg",
+      "image": "https://i.ibb.co.com/ZH4tHQV/1725523443-beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds.jpg",
       "categoryName": "Mountain Adventure",
       "shortDescription": "A remote and culturally rich trek around Mount Manaslu.",
       "adventureCost": 1100,
@@ -122,7 +122,7 @@
     {
       "id": 5,
       "title": "Gokyo Lakes and Renjo La Pass Trek",
-      "image": "https://example.com/images/gokyo_lakes.jpg",
+      "image": "https://i.ibb.co.com/1XGZxVH/alpine-eco-kailash-tours.webp",
       "categoryName": "Mountain Adventure",
       "shortDescription": "Discover pristine glacial lakes and panoramic views of the Himalayas.",
       "adventureCost": 1300,
@@ -152,7 +152,7 @@
     {
       "id": 6,
       "title": "Mardi Himal Trek",
-      "image": "https://example.com/images/mardi_himal.jpg",
+      "image": "https://i.ibb.co.com/D4Cn41w/cho-oyu-view-from-sundar-peak-hike-nepal-8kgo.webp",
       "categoryName": "Mountain Adventure",
       "shortDescription": "A short and scenic trek to the base of Mardi Himal.",
       "adventureCost": 500,
@@ -181,7 +181,7 @@
     {
       "id": 7,
       "title": "Kanchenjunga Base Camp Trek",
-      "image": "https://example.com/images/kanchenjunga.jpg",
+      "image": "https://i.ibb.co.com/8bXm2D1/images-1.jpg",
       "categoryName": "Mountain Adventure",
       "shortDescription": "A remote trek to the base of the world’s third-highest mountain.",
       "adventureCost": 1500,
@@ -210,7 +210,7 @@
     {
       "id": 8,
       "title": "Upper Mustang Trek",
-      "image": "https://example.com/images/upper_mustang.jpg",
+      "image": "https://i.ibb.co.com/nPGTGNw/Langtang-Valley-view.jpg",
       "categoryName": "Mountain Adventure",
       "shortDescription": "A cultural trek through the ancient kingdom of Upper Mustang.",
       "adventureCost": 1600,
@@ -240,7 +240,7 @@
     {
       "id": 9,
       "title": "Makalu Base Camp Trek",
-      "image": "https://example.com/images/makalu.jpg",
+      "image": "https://i.ibb.co.com/kQXtMHx/mountain-flight-experience-tour-in-Nepal-Hike-on-Travels.jpg",
       "categoryName": "Mountain Adventure",
       "shortDescription": "Explore the pristine beauty of Makalu-Barun National Park.",
       "adventureCost": 1400,
