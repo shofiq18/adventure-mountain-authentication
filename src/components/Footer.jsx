@@ -2,24 +2,24 @@
 
 const Footer = () => {
     return (
-        <div className="bg-base-300">
-            <footer className="footer jusb max-w-7xl mb-0 mx-auto px-3 lg:px-0  text-base-content py-20">
-            <nav>
-                <h6 className="footer-title">Services</h6>
+        <div className="bg-[#202020]">
+            <footer className="footer  max-w-7xl mb-0 mx-auto px-3 lg:px-0  text-base-content py-28">
+            <nav className="text-lg text-gray-300">
+                <h6 className="footer text-2xl font-bold text-gray-300 ">Services</h6>
                 <a className="link link-hover">Branding</a>
                 <a className="link link-hover">Design</a>
                 <a className="link link-hover">Marketing</a>
                 <a className="link link-hover">Advertisement</a>
             </nav>
-            <nav>
-                <h6 className="footer-title">Company</h6>
+            <nav className=" text-lg text-gray-300">
+                <h6 className="footer text-2xl font-bold text-gray-300">Company</h6>
                 <a className="link link-hover">About us</a>
                 <a className="link link-hover">Contact</a>
                 <a className="link link-hover">Jobs</a>
                 <a className="link link-hover">Press kit</a>
             </nav>
-            <nav>
-                <h6 className="footer-title">Social</h6>
+            <nav className="text-lg text-gray-300">
+                <h6 className="footer text-2xl font-bold mb-6 text-gray-300">Social</h6>
                 <div className="grid grid-flow-col gap-4">
                     <a>
                         <svg

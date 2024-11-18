@@ -23,5 +23,5 @@ const Mountains = () => {
         </div>
     );
 };
-
+  
 export default Mountains;
