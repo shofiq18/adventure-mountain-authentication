@@ -62,7 +62,7 @@ const AdventureDetails = () => {
                         <li key={index}>{feature}</li>
                     ))}
                 </ul>
-                <h3 className="text-xl font-bold mt-5">Included Items:</h3>
+                <h3 className="text-xl font-bold mt-5">Included Items:</h3> 
                 <ul className="list-disc list-inside text-gray-700">
                     {mountain.includedItems.map((item, index) => (
                         <li key={index}>{item}</li>
