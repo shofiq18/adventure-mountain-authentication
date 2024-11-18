@@ -38,11 +38,11 @@ const Navbar = () => {
                  h-24 object-cover rounded-full" src="/src/assets/nav-logo.jpg" alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal gap-3 px-1">
+                <ul className="menu menu-horizontal gap-3 text-base text-gray-500 px-1">
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end text-base">
                 <Link to="/login"><a className="btn">Log in</a></Link>
             </div>
         </div>

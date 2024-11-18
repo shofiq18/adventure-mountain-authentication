@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <div className="bg-base-300">
-            <footer className="footer jusb max-w-7xl mb-0 mx-auto  text-base-content py-20">
+            <footer className="footer jusb max-w-7xl mb-0 mx-auto px-3 lg:px-0  text-base-content py-20">
             <nav>
                 <h6 className="footer-title">Services</h6>
                 <a className="link link-hover">Branding</a>

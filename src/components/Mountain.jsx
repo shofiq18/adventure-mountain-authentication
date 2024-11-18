@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
 const Mountain = ({ mountain }) => {
   return (
-    <div className="card card-compact bg-base-100 w-96 shadow-xl">
+    <div className="card card-compact bg-base-100  shadow-xl">
       <figure>
         <img
           className="w-full h-[300px]"
@@ -18,7 +19,7 @@ const Mountain = ({ mountain }) => {
         </ol>
 
         <div className="card-actions py-5 ">
-          <button className="btn rounded-full bg-blue-300 ">Explore Now</button>
+          <Link to={`/mountain/${mountain.id}`} className="btn rounded-full bg-blue-300 ">Explore Now</Link>
         </div>
       </div>
     </div>

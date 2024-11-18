@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="carousel w-full h-[600px] ">
+        <div className="carousel w-full h-[400px] lg:h-[600px] ">
   <div id="slide1" className="carousel-item relative w-full">
     <img
       src="https://i.ibb.co.com/JmYK7RZ/Hotel-Shanker-Kathmandu-Nepal-Hiking-Trekking-Himalayas-Nepal.jpg"
