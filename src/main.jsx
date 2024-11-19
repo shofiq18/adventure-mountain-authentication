@@ -14,6 +14,7 @@ import UpdateProfile from './components/UpdateProfile.jsx';
 import UserProfile from './components/UserProfile.jsx';
 import Login from './components/Login.jsx';
 import AdventureDetails from './components/AdventureDetails.jsx';
+import Register from './components/Register.jsx';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login></Login>,
+      },
+      {
+        path: "register",
+        element: <Register></Register>
       },
     ],
   },
