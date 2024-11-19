@@ -35,8 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 
-                <img className="w-72
-                 h-24 object-cover rounded-full" src="/src/assets/nav-logo.jpg" alt="" />
+                <img className="w-72 h-24 object-cover rounded-full" src="https://i.ibb.co.com/c8ps488/sunset-and-mountain-logo-design-landscape-sunset-logo-adventure-vector.jpg" alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal gap-3 text-base text-gray-500 px-1">

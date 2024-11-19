@@ -6,7 +6,7 @@ const Mountains = () => {
     const [mountains, setMountains] = useState([]);
 
     useEffect(()=> {
-        fetch("/public/AdventureData.json")
+        fetch("AdventureData.json")
         .then(res => res.json())
         .then(data => setMountains(data))
        
