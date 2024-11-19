@@ -47,11 +47,6 @@ To deploy this project run
 
 
 
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-
-
 ## NPM Packages Used
 
 - React Router Dom: For routing and navigation.

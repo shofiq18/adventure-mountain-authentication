@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB1-U_da04ZRiDBCS9ddw9GJyXW1JxeaZQ",
-  authDomain: "adventure-mountain-6182e.firebaseapp.com",
-  projectId: "adventure-mountain-6182e",
-  storageBucket: "adventure-mountain-6182e.firebasestorage.app",
-  messagingSenderId: "806386265067",
-  appId: "1:806386265067:web:c2885eca9840ca7ae587ae"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
