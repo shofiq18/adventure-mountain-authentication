@@ -15,11 +15,13 @@ import UserProfile from './components/UserProfile.jsx';
 import Login from './components/Login.jsx';
 import AdventureDetails from './components/AdventureDetails.jsx';
 import Register from './components/Register.jsx';
+import Error from './components/Error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",

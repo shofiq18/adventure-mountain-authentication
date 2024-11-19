@@ -41,11 +41,11 @@ const AdventureDetails = () => {
     }
 
     return (
-        <div className=" px-3  lg:flex justify-start gap-12   max-w-7xl mx-auto my-12 bg-gray-100 p-5 shadow-xl rounded-2xl ">
+        <div className=" mx-3 md:mx-4 mb-6  lg:flex justify-start gap-12   max-w-7xl lg:mx-auto lg:my-12 bg-gray-100 p-5 shadow-xl rounded-2xl ">
 
             <div>
                 <img
-                    className="w-full mb-4 h-[300px] lg:h-[480px] object-cover rounded-lg "
+                    className="w-full mb-4 h-[350px] lg:h-[480px] object-cover  rounded-lg "
                     src={mountain.image}
                     alt={mountain.title}
                 />
