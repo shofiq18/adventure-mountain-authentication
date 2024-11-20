@@ -17,6 +17,7 @@ import AdventureDetails from './components/AdventureDetails.jsx';
 import Register from './components/Register.jsx';
 import Error from './components/Error.jsx';
 import AuthProvider from './components/Provider/AuthProvider.jsx';
+import PrivateRoute from './components/PrivateRoute.jsx';
 
 
 const router = createBrowserRouter([
@@ -31,7 +32,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/mountain/:id",
-        element: <AdventureDetails></AdventureDetails>,
+        element: <PrivateRoute>
+          <AdventureDetails></AdventureDetails>
+        </PrivateRoute>,
         loader: async ({ params }) => {
           const response = await fetch("/AdventureData.json");
           const data = await response.json();
