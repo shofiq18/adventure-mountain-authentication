@@ -16,6 +16,8 @@ import Login from './components/Login.jsx';
 import AdventureDetails from './components/AdventureDetails.jsx';
 import Register from './components/Register.jsx';
 import Error from './components/Error.jsx';
+import AuthProvider from './components/Provider/AuthProvider.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -37,7 +39,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "update", 
+        path: "update",
         element: <UpdateProfile></UpdateProfile>,
       },
       {
@@ -58,6 +60,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <AuthProvider>
       <RouterProvider router={router} />
+    </AuthProvider>
   </StrictMode>,
 );
