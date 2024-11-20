@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 
 const Navbar = () => {
-    const {user} = useContext(AuthContext);
+    const {user, logOut} = useContext(AuthContext);
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/update">Update Profile</NavLink></li>
@@ -51,7 +51,10 @@ const Navbar = () => {
                 <p className="mr-6">{ user && user.email}</p>
                 <span className="text-4xl mr-8 "><FaUserCircle />
                 </span>
-                <Link to="/login"><a className="btn">Log in</a></Link>
+                {
+                    user && user?. email ? (<button onClick={logOut} className="btn">Log Out</button>) : (<Link to="/login"><a className="btn">Log in</a></Link>)
+                }
+                
             </div>
         </div>
        </div>

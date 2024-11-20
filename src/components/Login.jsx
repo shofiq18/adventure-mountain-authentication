@@ -1,11 +1,15 @@
 
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
+import { useContext } from "react";
+import { AuthContext } from "./Provider/AuthProvider";
 
 
 
 
 const Login = () => {
+
+    const {userLogin, setUser} = useContext(AuthContext);
 
 
     const handleLogin = e => {
@@ -13,6 +17,15 @@ const Login = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email, password);
+        userLogin(email, password)
+        .then(result => {
+            const user = result.user;
+            setUser(user);
+        })
+        .catch((error) => {
+            alert(error.code);
+          });
+        
 
     }
 
