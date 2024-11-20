@@ -48,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end text-base">
-                <p>{ user && user.name}</p>
+                <p className="mr-6">{ user && user.email}</p>
                 <span className="text-4xl mr-8 "><FaUserCircle />
                 </span>
                 <Link to="/login"><a className="btn">Log in</a></Link>
