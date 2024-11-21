@@ -4,21 +4,39 @@ import { useContext, useState } from "react";
 import { AuthContext } from "./Provider/AuthProvider";
 
 const Register = () => {
-    const { createNewUser, setUser, updateUserProfile } = useContext(AuthContext);
+    const { createNewUser, setUser, updateUserProfile, signInWithGoogle } = useContext(AuthContext);
     const navigate = useNavigate();
     const [error, setError] = useState({});
+
+
+    const handleGoogleRegister = () => {
+        signInWithGoogle()
+            .then(result => {
+                const user = result.user;
+                setUser(user);
+                navigate("/"); 
+            })
+            .catch(error => {
+                console.error('Error', error.message);
+                setError({
+                    ...error,
+                    google: "Failed to sign in with Google. Please try again.",
+                });
+            });
+    };
+
 
     const handleRegister = (e) => {
         e.preventDefault();
 
-        // Get form data
+       
         const form = new FormData(e.target);
         const name = form.get("name");
         const photo = form.get("photo");
         const email = form.get("email");
         const password = form.get("password");
 
-        // Validate password
+       
         const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
         if (!passwordRegex.test(password)) {
             setError({
@@ -29,7 +47,7 @@ const Register = () => {
             return;
         }
 
-        // Reset error if validation passes
+      
         setError({});
 
         console.log({ name, photo, email, password });
@@ -40,15 +58,15 @@ const Register = () => {
                 const user = result.user;
                 setUser(user);
                 updateUserProfile({
-                    displayName:name , 
-                    photoURL:photo
+                    displayName: name,
+                    photoURL: photo
                 })
-                .then(() =>{
-                    navigate("/")
-                })
-                .catch((err) => {
-                    console.log(err);
-                })
+                    .then(() => {
+                        navigate("/")
+                    })
+                    .catch((err) => {
+                        console.log(err);
+                    })
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -127,7 +145,7 @@ const Register = () => {
                         </form>
                         <p className="text-center">or</p>
                         <div className="form-control mt-4 px-8">
-                            <button className="btn font-normal border-green-300">
+                            <button onClick={handleGoogleRegister} className="btn font-normal border-green-300">
                                 <span className="mr-4 text-xl">
                                     <FcGoogle />
                                 </span>

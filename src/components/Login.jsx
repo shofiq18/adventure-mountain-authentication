@@ -9,13 +9,22 @@ import { AuthContext } from "./Provider/AuthProvider";
 
 const Login = () => {
 
-    const { userLogin, setUser } = useContext(AuthContext);
+    const { userLogin, setUser, signInWithGoogle } = useContext(AuthContext);
     const [error, setError] = useState({});
     const location = useLocation();
     const navigate = useNavigate();
 
     console.log(location);
-
+    
+    const handleGoogle = () => {
+        signInWithGoogle()
+        .then(result => {
+            const user = result.user;
+            setUser(user);
+            navigate("/")
+        })
+        .catch(error => console.log('Error', error.message ))
+    }
 
     const handleLogin = e => {
         e.preventDefault();
@@ -31,6 +40,8 @@ const Login = () => {
             .catch((err) => {
                 setError({ ...error, login: err.code });
             });
+
+
 
 
     }
@@ -75,7 +86,7 @@ const Login = () => {
                     <p className="text-center">or</p>
                     <div className="form-control mt-4 px-8">
 
-                        <button className="btn font-normal border-green-300 "> <span className="mr-4 text-xl"><FcGoogle />
+                        <button onClick={handleGoogle} className="btn font-normal border-green-300 "> <span className="mr-4 text-xl"><FcGoogle />
 
                         </span> Login with Google</button>
                     </div>
