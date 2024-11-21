@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useContext, useState } from "react";
 import { AuthContext } from "./Provider/AuthProvider";
 
 const Register = () => {
-    const { createNewUser, setUser } = useContext(AuthContext);
+    const { createNewUser, setUser, updateUserProfile } = useContext(AuthContext);
+    const navigate = useNavigate();
     const [error, setError] = useState({});
 
     const handleRegister = (e) => {
@@ -32,10 +33,22 @@ const Register = () => {
         setError({});
 
         console.log({ name, photo, email, password });
+
+
         createNewUser(email, password)
             .then((result) => {
                 const user = result.user;
                 setUser(user);
+                updateUserProfile({
+                    displayName:name , 
+                    photoURL:photo
+                })
+                .then(() =>{
+                    navigate("/")
+                })
+                .catch((err) => {
+                    console.log(err);
+                })
             })
             .catch((error) => {
                 const errorCode = error.code;
