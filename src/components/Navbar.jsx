@@ -1,6 +1,6 @@
 
 
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "./Provider/AuthProvider";
 import { FaUserCircle } from "react-icons/fa";
@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
+
+    
 
     const handleLogOut = () => {
         logOut()
@@ -29,8 +31,8 @@ const Navbar = () => {
     );
 
     return (
-        <div className="bg-white">
-            <div className="navbar max-w-7xl mx-auto">
+        <div data-aos="fade-down" className="bg-white" >
+            <div  className="navbar  max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

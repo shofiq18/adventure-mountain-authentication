@@ -14,7 +14,7 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 setUser(user);
-                navigate("/"); 
+                navigate("/");
             })
             .catch(error => {
                 console.error('Error', error.message);
@@ -29,14 +29,14 @@ const Register = () => {
     const handleRegister = (e) => {
         e.preventDefault();
 
-       
+
         const form = new FormData(e.target);
         const name = form.get("name");
         const photo = form.get("photo");
         const email = form.get("email");
         const password = form.get("password");
 
-       
+
         const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
         if (!passwordRegex.test(password)) {
             setError({
@@ -47,7 +47,7 @@ const Register = () => {
             return;
         }
 
-      
+
         setError({});
 
         console.log({ name, photo, email, password });
@@ -77,7 +77,9 @@ const Register = () => {
 
     return (
         <div>
-            <div className="flex justify-center items-center my-12 ">
+            <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className="flex justify-center items-center my-12 ">
                 <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
                         <h1 className=" text-2xl md:text-3xl lg:text-5xl font-bold">

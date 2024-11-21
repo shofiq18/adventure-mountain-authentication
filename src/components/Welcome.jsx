@@ -2,7 +2,9 @@
 
 const Welcome = () => {
     return (
-        <div className="max-w-7xl mx-auto text-center px-3 lg:px-0 ">
+        <div data-aos="fade-up"
+        data-aos-duration="3000" 
+        className="max-w-7xl mx-auto text-center px-3 lg:px-0  ">
             <h2 className=" text-2xl md:text-3xl  lg:text-4xl  my-8">Welcome To Nepal: Land Of Himalayas</h2>
             <p className="flex text-start text-base">Welcome to the country of Himalayas! Nepal is a country of diverse landscape, amazing culture and high mountains containing total 8 Peaks  above
                 8,000 meters from sea level including roof of the world Mt. Everest (8,848m) offers lifetime opportunity with series of adventure activities. Adventure

@@ -37,7 +37,9 @@ const Login = () => {
     };
 
     return (
-        <div className="flex justify-center items-center my-12">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" className="flex justify-center items-center my-12">
             <div className="hero-content flex-col">
                 <div className="text-center lg:text-left">
                     <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">Login now!</h1>

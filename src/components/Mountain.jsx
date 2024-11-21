@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 
 const Mountain = ({ mountain }) => {
   return (
-    <div className="card card-compact bg-base-100  shadow-xl">
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" className="card card-compact bg-base-100  shadow-xl">
       <figure>
         <img
           className="w-full h-[300px]"

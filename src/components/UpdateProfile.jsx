@@ -6,8 +6,10 @@ const UpdateProfile = () => {
 
     return (
         <div>
-            <h1>This is update profile</h1>
-            <div className="flex justify-center items-center my-12 ">
+
+            <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className="flex justify-center items-center my-12 ">
                 <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
 
