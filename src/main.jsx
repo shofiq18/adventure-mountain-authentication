@@ -18,6 +18,7 @@ import Register from './components/Register.jsx';
 import Error from './components/Error.jsx';
 import AuthProvider from './components/Provider/AuthProvider.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
+import ResetPassword from './components/ResetPassword.jsx';
 
 
 const router = createBrowserRouter([
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
         path: "register",
         element: <Register></Register>
       },
+      {
+        path: "reset", 
+        element: <ResetPassword></ResetPassword>
+      }
     ],
   },
 ]);
