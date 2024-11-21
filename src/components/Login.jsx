@@ -1,7 +1,7 @@
 
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "./Provider/AuthProvider";
 
 
@@ -9,23 +9,29 @@ import { AuthContext } from "./Provider/AuthProvider";
 
 const Login = () => {
 
-    const {userLogin, setUser} = useContext(AuthContext);
+    const { userLogin, setUser } = useContext(AuthContext);
+    const [error, setError] = useState({});
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    console.log(location);
 
 
     const handleLogin = e => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(email, password);
+
         userLogin(email, password)
-        .then(result => {
-            const user = result.user;
-            setUser(user);
-        })
-        .catch((error) => {
-            alert(error.code);
-          });
-        
+            .then(result => {
+                const user = result.user;
+                setUser(user);
+                navigate(location?.state ? location.state : "/")
+            })
+            .catch((err) => {
+                setError({ ...error, login: err.code });
+            });
+
 
     }
 
@@ -52,6 +58,12 @@ const Login = () => {
                                 <span className="label-text">Password</span>
                             </label>
                             <input type="password" placeholder="password" name="password" className="input input-bordered" required />
+                            {error.login && (
+                                <label className="label text-re">
+                                    {error.login}
+                                </label>
+                            )}
+
                             <label className="label">
                                 <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
