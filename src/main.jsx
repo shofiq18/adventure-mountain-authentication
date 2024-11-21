@@ -60,7 +60,7 @@ const router = createBrowserRouter([
         element: <Register></Register>
       },
       {
-        path: "reset", 
+        path: "reset",
         element: <ResetPassword></ResetPassword>
       }
     ],

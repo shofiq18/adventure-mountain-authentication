@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
 
-    
+
 
     const handleLogOut = () => {
         logOut()
@@ -32,7 +32,7 @@ const Navbar = () => {
 
     return (
         <div data-aos="fade-down" className="bg-white" >
-            <div  className="navbar  max-w-7xl mx-auto">
+            <div className="navbar  max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -64,8 +64,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end text-base">
-                    
-                    
+
+
                     {user?.photoURL ? (
                         <div className="relative group mr-6">
                             {/* User photo */}
@@ -74,7 +74,7 @@ const Navbar = () => {
                                 alt="User"
                                 className="w-12 h-12 rounded-full border-2 border-gray-300 object-cover cursor-pointer"
                             />
-                           
+
                             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-[-2rem] hidden group-hover:block bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-lg">
                                 {user.displayName}
                             </span>

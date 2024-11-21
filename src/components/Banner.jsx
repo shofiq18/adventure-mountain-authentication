@@ -6,8 +6,8 @@
 const Banner = () => {
   return (
     <div data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine" className="carousel w-full h-[400px] lg:h-[600px]">
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" className="carousel w-full h-[400px] lg:h-[600px]">
       <div id="slide1" className="carousel-item relative w-full">
         <img
           src="https://i.ibb.co.com/JmYK7RZ/Hotel-Shanker-Kathmandu-Nepal-Hiking-Trekking-Himalayas-Nepal.jpg"
@@ -15,7 +15,7 @@ const Banner = () => {
         />
         <div className="absolute inset-0 flex  text-center  items-center justify-center">
           <h2 className="text-white text-2xl lg:text-4xl font-bold bg-black bg-opacity-50  px-4 py-2 rounded">
-          Best Trekking And Tour Operator In Nepal
+            Best Trekking And Tour Operator In Nepal
 
           </h2>
         </div>

@@ -51,7 +51,7 @@ To deploy this project run
 
 - React Router Dom: For routing and navigation.
 - Firebase: Authentication and database management.
-- Animate.css: for Animation .
+- Aos package .
 - Daisy-ui: Slider for homepage banner.
 - React Toastify: Error and success notifications.
 

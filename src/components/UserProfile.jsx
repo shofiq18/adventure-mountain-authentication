@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const UserProfile = () => {
-    const {user} = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
 
 
     return (
@@ -23,17 +23,17 @@ const UserProfile = () => {
                     </div>
                 </div>
 
-                {/* Badge */}
+
                 <span className="mt-4 badge badge-primary px-3 py-1">Pro</span>
 
-                {/* Name and Title */}
+
                 <h3 className="text-xl text-green-500">Congratulations</h3>
                 <h2 className=" text-xl font-semibold">{user.displayName}</h2>
                 <p>Email: {user.email}</p>
 
-                {/* Action Buttons */}
+
                 <div className="form-control mt-6">
-                   <Link to="/update"> <button className="btn bg-green-500 mt-4">Update Profile</button></Link>
+                    <Link to="/update"> <button className="btn bg-green-500 mt-4">Update Profile</button></Link>
                 </div>
 
             </div>
