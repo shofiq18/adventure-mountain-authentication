@@ -54,5 +54,6 @@ To deploy this project run
 - Aos package .
 - Daisy-ui: Slider for homepage banner.
 - React Toastify: Error and success notifications.
+- firebase for authentication
 
 
